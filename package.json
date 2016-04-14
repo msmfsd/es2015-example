@@ -1,16 +1,16 @@
 {
   "name": "es2015-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Manning Node In Action Tutorial Chapter 4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babel": "./node_modules/.bin/babel browser.js -d build/",
-    "uglify": "./node_modules/.bin/uglifyjs build/browser.js -o build/browser.min.js",
+    "babel": "./node_modules/.bin/babel index.js --out-file build/app.js --source-maps",
+    "uglify": "./node_modules/.bin/uglifyjs build/app.js -o build/app.min.js",
     "build": "npm run babel && npm run uglify"
   },
   "keywords": [],
-  "author": "",
+  "author": "Magnus Morris",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.7.5",
