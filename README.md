@@ -1,3 +1,5 @@
+[![build status](https://secure.travis-ci.org/survivejs/webpack_react.png)](https://travis-ci.org/msmdesign/es2015-example)
+
 # es2015-example
 Manning Node In Action Tutorial Chapter 4
 [Click here to view the publication](https://www.manning.com/books/node-js-in-action-second-edition)
